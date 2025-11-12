@@ -1,0 +1,33 @@
+artstacks-website/
+├── index.html                 # Home page
+├── categories.html            # Categories page (AI Art, Mockups, Social Packs)
+├── product.html               # Product detail page (dynamic via JS)
+├── blog.html                  # Blog listing page
+├── post.html                  # Blog post detail page (dynamic via JS)
+├── about.html                 # About page
+├── contact.html               # Contact page
+├── terms.html                 # Terms of Service
+├── privacy.html               # Privacy Policy
+├── sitemap.xml                # SEO sitemap
+├── robots.txt                 # SEO robots file
+├── assets/
+│   ├── css/
+│   │   └── styles.css         # Main CSS (responsive, mobile-first)
+│   ├── js/
+│   │   ├── main.js            # Core JS for dynamic loading, lazy-loading, search
+│   │   └── product.js         # JS for product page interactions
+│   └── images/                # Placeholder images (replace with CDN URLs)
+│       ├── hero1.webp         # Trending image 1
+│       ├── hero2.webp         # Trending image 2
+│       ├── ... (up to hero6.webp)
+│       ├── category-ai.webp   # Category tile image
+│       ├── category-mockups.webp
+│       ├── category-social.webp
+│       ├── product1.webp      # Sample product image
+│       ├── product2.webp
+│       ├── product3.webp
+│       └── logo.webp          # Site logo
+├── data/
+│   ├── products.json          # JSON for products (editable)
+│   └── posts.json             # JSON for blog posts (editable)
+└── README.md                  # Deployment and editing instructions
